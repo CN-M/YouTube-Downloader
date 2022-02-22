@@ -6,7 +6,7 @@ const link = 'https://www.youtube.com/watch?v=vqp9yoAP97Y';
 function download(link) {
     console.log('Download Start')
     ytdl(link)
-    .pipe(fs.createWriteStream('Baby5.mp4'));
+    .pipe(fs.createWriteStream('VideoName.mp4'));
 }
 
 download(link);
