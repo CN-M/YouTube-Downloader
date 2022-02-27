@@ -10,4 +10,3 @@ function download(link) {
 }
 
 download(link);
-console.log('Download Complete')
